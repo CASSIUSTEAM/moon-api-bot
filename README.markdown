@@ -38,10 +38,10 @@ admins: {
 
 Run it !
 ```
-chmod +x legend
-./legend
+chmod +x legend.sh
+./legend.sh
 ```
 
 ### options
 
-Use `./legend --help` for available options
+Use `./legend.sh --help` for available options
