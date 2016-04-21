@@ -1,14 +1,14 @@
 run = (msg,matches) ->
-  boldtext = "*#{matches[2]}*"
+  boldtext = "*#{matches[3]}*"
 
   return boldtext
 
 patterns = {
-  "^[#!/]bold (txt) (.*)"
+  "^[#!/]bold (+) (.*)"
 }
 description = "*Bolding plugin !*"
 usage = [[
-`/bold txt <text>`
+`/bold + <text>`
 _Will return Bold text_
 ]]
 return {
