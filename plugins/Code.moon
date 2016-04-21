@@ -1,5 +1,5 @@
 run = (msg,matches) ->
-  CODE = "`#{matches[2]}`"
+  CODE = "`#{matches[3]}`"
 
   return CODE
 
