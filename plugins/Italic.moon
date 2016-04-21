@@ -1,5 +1,5 @@
 run = (msg,matches) ->
-  italic = "_#{matches[2]}_"
+  italic = "_#{matches[3]}_"
 
   return italic
 
