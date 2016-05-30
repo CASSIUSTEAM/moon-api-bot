@@ -45,3 +45,7 @@ chmod +x legend.sh
 ### options
 
 Use `./legend.sh --help` for available options
+
+### Base
+
+This bot is Based On Imandabot(jack)
